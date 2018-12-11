@@ -19,7 +19,7 @@ class SongList extends React.Component {
   })
 
   return (
-    <div className="music-list">
+    <div className="song-link">
     {songNodes}
     <audio id="audio" hidden="true"></audio>
     </div>
