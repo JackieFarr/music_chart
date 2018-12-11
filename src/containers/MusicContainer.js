@@ -26,8 +26,8 @@ componentDidMount(){
   render(){
     return (
       <div className="music-container">
-      <h1>Top 20 Songs</h1>
-      <SongList music={this.state.music}/>
+          <h1>UK Top 20 Songs</h1>
+          <SongList music={this.state.music}/>
       </div>
     )
   }

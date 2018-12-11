@@ -11,6 +11,7 @@ class SongList extends React.Component {
         position={index + 1}
         artist={song["im:artist"]["label"]}
         image={song["im:image"][0]["label"]}
+        songRef={song["link"][1]["attributes"]["href"]}
         key={index}
         value={index}>
       </Song>
@@ -20,6 +21,7 @@ class SongList extends React.Component {
   return (
     <div className="music-list">
     {songNodes}
+    <audio id="audio" hidden="true"></audio>
     </div>
   )
   }

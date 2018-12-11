@@ -1,26 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("background-image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.music-box{
-  width: 720px;
+/* TAKE AWAY THE UNDERLINE OF HYPERLINK */
+.song-link {
+  text-decoration: none;
+}
+
+/* .music-box { */
+  /* width: 720px;
   padding: 5px 5px 5px 5px;
-  border: 2px solid #C42847;
+  border: 2px solid white;
   border-radius: 3px;
   margin: 5px 0px 0px 5px;
-  font-size: 12px;
-}
+  font-size: 12px; */
 
-.music-list{
+/* } */
+
+/* .music-list {
   width: inherit;
   height: auto;
   display: inline-grid;
-}
+} */
 
-.song{
+
+/* POSITION OF FULL LIST OF SONGS */
+.song {
   height: 80px;
   margin-bottom: 2px;
   border-radius: 2px;
@@ -28,36 +39,52 @@ body {
   padding: 3px 3px 3px 3px;
 }
 
-.image{
+/* PICTURES */
+.image {
   width: 70px;
-  float: right;
+  float: left;
 }
 
-.position{
+/* POSITION NUMBERS */
+.position {
   font-size: 20px;
   margin: 10px 5px 5px 5px
 }
 
-.position-box{
+/* POSITION NUMBERS */
+.position-box {
   width: 50px;
   height: 50px;
-  float:left;
+  float: left;
   text-align: center;
-  color: #DE3C4B;
+  color: #ECE5F0;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-h3{
+
+/* ARTIST NAME */
+h3 {
   margin: 0px 0px 0px 0px;
-  color: #E28413;
+  color: white;
+  /* position: relative; */
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+/* SONG TITLE */
+h4 {
+  margin: 10px 0px 0px 0px;
+  color: #ECE5F0;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: left;
 }
 
-h1{
+/* UK TOP 20 SONGS*/
+h1 {
   text-align: center;
-  color: #DE3C4B;
+  color: white;
 }
